@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -106,9 +108,13 @@
     transform: translateY(0);
   }
 }
+.feature-card{
+  background: #0BAB64;
+ 
+}
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: #02c39a;
   box-shadow: var(--card-shadow);
 }
 
